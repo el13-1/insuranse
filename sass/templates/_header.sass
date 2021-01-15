@@ -1,0 +1,83 @@
+.header
+  
+  align-items: center
+  background-color: #fff
+  border-bottom: 2px solid #F8F8F8
+  height: 5rem
+  max-width: 1440px
+  &__contaner
+    margin-top: 2.25rem
+  
+.menu
+  max-width: 1320px
+  display: flex
+  justify-content: space-between
+  margin: auto
+  align-items: center
+  &__price
+    text-transform: uppercase
+    font-weight: 600
+    font-size: 0.88rem
+    padding: 0.81rem 1.93rem
+    border: 1px solid rgba(29, 37, 60, 0.2)
+    box-sizing: border-box
+    border-radius: 4px
+    background-color: transparent
+    &:hover
+      box-shadow: 8px 6px 5px 0 rgba(15, 19, 31, 0.2)
+    &:active
+      box-shadow: none
+      background-color: rgba(15, 19, 31, 0.2)
+
+.leftcont
+  display: flex
+  align-items: center
+  margin-left: 3.75rem
+
+.rightcont
+  margin-right: 3.75rem
+
+.nav
+  display: flex
+  &__item
+    @include font-text
+    text-decoration: none
+    margin-left: 2.19rem
+    &:active
+      border: 1px solid $text-hover
+    &:hover
+      color: $text-hover
+      &:after
+        width: 100%
+      
+.nav
+  &__item
+    &::after
+      display: block
+      content: ""
+      height: 1px
+      width: 0
+      background-color: $text-hover
+      transition: width 0.4s ease-in-out      
+      
+.login
+  border: none
+  background-color: transparent
+  @include font-text
+  &:active
+    background-color: lighten($text-color, 70%)
+    
+  &:hover
+    color: $text-hover
+    cursor: pointer
+    &:after
+      width: 100%
+
+.login
+  &::after
+    display: block
+    content: ""
+    height: 1px
+    width: 0
+    background-color: $text-hover
+    transition: width 0.4s ease-in-out
