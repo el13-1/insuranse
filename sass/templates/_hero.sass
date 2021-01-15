@@ -1,8 +1,50 @@
 .hero
+  display: flex
+  justify-content: space-between
+  position: relative
+  &--cont
+    height: 82vh
+    box-sizing: border-box
+    
+  &__text
+    font-size: 1.37rem
+    font-weight: 500
+    color: $eny-text
+  &__button
+    margin-top: 10px
+
+.first-screen-cont
+  background-color: #c97474
+
+.hero__back
+  width: 70%
+  height: 82vh
   background-image: url(../img/hero1.png)
   background-repeat: no-repeat
   background-position: right center
+  background-size: 75%
+
+.text
+  width: 28.12rem
+  height: 23.93rem
   
-  max-width: inherit
-  height: 100vh
-  border: 1px solid red
+  position: absolute
+  top: 20%
+  left: 10%
+
+.pretitle
+  font-size: 1.13rem
+  font-weight: 600
+  color: $contrast
+  position: absolute
+  left: 0
+  top: 10%
+
+
+.maintitle
+  font-weight: 600
+  font-size: 4rem
+  color: $text-color
+  line-height: 4.25rem
+  margin: -0.3rem 0
+  position: relative

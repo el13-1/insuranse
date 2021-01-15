@@ -6,3 +6,32 @@ html
 
 body
   font-family: 'Work Sans', sans-serif
+
+
+
+.button
+  &--all
+    display: flex
+    align-items: center
+    font-size: 1rem
+    font-weight: 600
+    text-transform: uppercase
+    color: #fff
+    background-color: $contrast
+    border: none
+    padding: 1.25rem 3.75rem 1.25rem 1.81rem
+    border-radius: 4px
+    &::after
+      content: ""
+      width: 29px
+      height: 10px
+      background-image: url(../img/Shape.svg)
+      background-repeat: no-repeat
+      background-position: center
+      margin-left: 8px
+    &:hover
+      background-color: darken($contrast, 10%)
+    &:active
+      border: 2px solid darken($contrast, 20%)
+*
+  box-sizing: border-box    

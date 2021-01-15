@@ -40,7 +40,6 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -359,6 +358,46 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.button--all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #F46752;
+  border: none;
+  padding: 1.25rem 3.75rem 1.25rem 1.81rem;
+  border-radius: 4px;
+}
+
+.button--all::after {
+  content: "";
+  width: 29px;
+  height: 10px;
+  background-image: url(../img/Shape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 8px;
+}
+
+.button--all:hover {
+  background-color: #f13d22;
+}
+
+.button--all:active {
+  border: 2px solid #d3270d;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -397,6 +436,7 @@ body {
           box-sizing: border-box;
   border-radius: 4px;
   background-color: transparent;
+  color: #1D253C;
 }
 
 .menu__price:hover {
@@ -468,6 +508,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
+  color: #1D253C;
 }
 
 .login:active {
@@ -494,11 +535,67 @@ body {
 }
 
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.hero--cont {
+  height: 82vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hero__text {
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: #5A6482;
+}
+
+.hero__button {
+  margin-top: 10px;
+}
+
+.first-screen-cont {
+  background-color: #c97474;
+}
+
+.hero__back {
+  width: 70%;
+  height: 82vh;
   background-image: url(../img/hero1.png);
   background-repeat: no-repeat;
   background-position: right center;
-  max-width: inherit;
-  height: 100vh;
-  border: 1px solid red;
+  background-size: 75%;
+}
+
+.text {
+  width: 28.12rem;
+  height: 23.93rem;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.pretitle {
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #F46752;
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+
+.maintitle {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #1D253C;
+  line-height: 4.25rem;
+  margin: -0.3rem 0;
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
