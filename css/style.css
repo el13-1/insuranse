@@ -346,8 +346,23 @@ template {
   display: none;
 }
 
-.contaner {
+.container {
   max-width: 1440px;
+  margin: auto;
+}
+
+.container__small {
+  max-width: 68.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
 html {
@@ -639,24 +654,17 @@ body {
 }
 
 .influence__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding-top: 9.94rem;
   padding-bottom: 3.4rem;
   background-color: #f9f5f2;
 }
 
-.influence__discriotion {
-  max-width: 28.5rem;
-  margin-left: 4.5rem;
+.influence__img {
+  max-width: 31.25rem;
 }
 
-.influence__img {
-  margin-right: 4.5rem;
+.influence__discriotion {
+  max-width: 28.5rem;
 }
 
 .influence__pretitle {
@@ -690,5 +698,64 @@ body {
   font-size: 1rem;
   font-weight: 400;
   color: #5A6482;
+}
+
+.help {
+  padding-top: 9.25rem;
+  padding-bottom: 10.18rem;
+}
+
+.help__here {
+  max-width: 28.5rem;
+}
+
+.help__imgcont {
+  position: relative;
+  max-width: 33.88rem;
+}
+
+.help__pretitle {
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  color: #F46752;
+  font-weight: 600;
+}
+
+.help__title {
+  color: #1D253C;
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+}
+
+.help__text {
+  color: #5A6482;
+  font-weight: 400;
+  line-height: 1.87rem;
+  font-size: 1.18rem;
+}
+
+.help__cont {
+  position: relative;
+}
+
+.help__dott {
+  position: absolute;
+  z-index: -10;
+  top: -7%;
+  left: -7%;
+}
+
+.help__human {
+  position: absolute;
+  top: 94%;
+  left: -5%;
+  z-index: 10;
+  padding: 1.25rem 1.56rem;
+  background: #FFFFFF;
+  -webkit-box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+          box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+  border-radius: 5px;
+  max-width: 20.4rem;
 }
 /*# sourceMappingURL=style.css.map */
