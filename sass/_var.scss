@@ -5,8 +5,38 @@
   font-size: 1rem;
 }
 
+@mixin over-title{
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  color: $contrast;
+  font-weight: 600;
+}
+
+@mixin second-title {
+  color: $text-color;
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+}
+
+@mixin section-text{
+  color: $eny-text;
+  font-weight: 400;
+  line-height: 1.87rem;
+  font-size: 1.18rem;
+}
+
+@mixin small-btn{
+  color: $btn-color;
+  font-weight: 500;
+  font-size: 1.125rem;
+  border: none;
+  background-color: transparent;
+}
+
 $text-color: #1D253C;
 $text-hover:  #007188;
 $eny-text:  #5A6482;
 $contrast: #F46752;
+$btn-color: #126F86;
 

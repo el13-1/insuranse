@@ -21,6 +21,7 @@ body
     border: none
     padding: 1.25rem 3.75rem 1.25rem 1.81rem
     border-radius: 4px
+    cursor: pointer
     &::after
       content: ""
       width: 29px
@@ -33,5 +34,28 @@ body
       background-color: darken($contrast, 10%)
     &:active
       border: 2px solid darken($contrast, 20%)
+
+.button
+  &__small
+    @include small-btn
+    display: flex
+    align-items: center
+    &::after
+      content: ""
+      width: 29px
+      height: 10px
+      transform: rotate(-5.02deg)
+      background-image: url(../img/Shape1.svg)
+      background-repeat: no-repeat
+      background-position: center
+      margin-left: 8px
+    &:hover
+      text-shadow: 4px 4px 2px lighten($btn-color, 40% )
+      cursor: pointer
+    &:active
+      border: 1px solid lighten($btn-color, 40% )
+      padding: 3px
+      border-radius: 4px
+    
 *
   box-sizing: border-box    
