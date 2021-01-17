@@ -446,12 +446,27 @@ body {
   border-radius: 4px;
 }
 
+.title__cont {
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .header {
+  margin: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -757,5 +772,100 @@ body {
           box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
   border-radius: 5px;
   max-width: 20.4rem;
+}
+
+.safe__cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.safe__container {
+  position: relative;
+  background-color: #f8f8f8;
+  padding-top: 32px;
+  padding-bottom: 5.31rem;
+}
+
+.safe__img__cont {
+  position: absolute;
+  left: 34%;
+  top: -21%;
+}
+
+.safe__title {
+  text-align: center;
+  color: #1D253C;
+  font-weight: 600;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
+}
+
+.safe__title__cont {
+  max-width: 67.3rem;
+}
+
+.safe__pretitle {
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  color: #F46752;
+  font-weight: 600;
+}
+
+.safe__text {
+  text-align: center;
+  color: #5A6482;
+  font-weight: 400;
+  line-height: 1.87rem;
+  font-size: 1.18rem;
+  margin-bottom: 2.56rem;
+}
+
+.safe__item {
+  max-width: 20rem;
+  height: 19.37rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.item__text {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.62rem;
+  font-size: 0.68rem;
+  color: #5A6482;
+}
+
+.item__title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #1D253C;
+  line-height: 15px;
+}
+
+.item__1 {
+  margin-top: 4.37rem;
+}
+
+.item__2 {
+  margin-top: 1.25rem;
+  margin-bottom: -1.75rem;
+}
+
+.item__3 {
+  margin-top: 2.75rem;
+  margin-bottom: -1.25rem;
 }
 /*# sourceMappingURL=style.css.map */
