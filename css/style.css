@@ -1302,4 +1302,23 @@ body {
 .start__button {
   margin: auto;
 }
+
+.footcontainer {
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+.foot__small {
+  border: 1px solid red;
+  padding: 0 5px;
+}
+
+.foot__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */
