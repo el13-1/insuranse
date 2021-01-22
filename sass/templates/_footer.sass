@@ -1,10 +1,93 @@
 .foot
-  &container
-    padding-top: 75px
-    padding-bottom: 40px
+  font-family: 'Roboto', sans-serif
+  &__container
+    background-color:#f8f8f8
   &__small
-    border: 1px solid red
-    padding: 0 5px 
+    margin-top: 4.68rem
+    padding-bottom: 2.5rem
   &__left
     display: flex
     justify-content: space-between
+  &__right
+    max-width: 23.5rem
+  &__form__text
+    font-size: 0.87rem
+    color: $eny-text
+  &__input
+    height: 60px
+    width: 200px
+    border: 1px solid rgba(29, 37, 60, 0.2)
+    border-radius: 4px 0 0 4px
+  &__btn
+    display: flex
+    align-items: center
+    background-color: #126F85
+    padding: 20px 10px 20px 20px
+    width: 86px
+    color: #fff
+    border: none
+    border-radius: 0 4px 4px 0
+    cursor: pointer
+    &::after
+      content: ""
+      width: 31px
+      height: 21px
+      background-image: url(../img/Shape.svg)
+      background-repeat: no-repeat
+      background-position: center
+      margin-left: 6px
+    &:hover
+      background-color: lighten( #126F85, 5%)
+    &:active
+      background-color: darken( #126F85, 5%)
+  &__res
+    margin-left: 6.44rem
+  &__title
+    font-weight: 400
+    font-size: 1rem
+    text-transform: uppercase
+    color: $text-color
+  &__li
+    list-style: none
+    margin-bottom: 1.19rem
+    &__link
+      text-decoration: none
+      font-weight: 400
+      font-size: 1rem
+      color: $eny-text
+      &::after
+        display: block
+        content: ""
+        height: 1px
+        width: 0
+        background-color: $text-hover
+        transition: width 0.4s ease-in-out 
+      &:hover
+        &::after
+          width: 100%
+  &__list
+    margin-left: -2.5rem   
+  
+.form
+  &__items
+    display: flex
+    margin-bottom: 25px
+
+.sotial__icon
+  margin-left: 34px
+  cursor: pointer
+  &:hover
+    padding: 2px
+    background-color: lighten(#5a6482, 40%)
+    border-radius: 4px
+  &:active
+    border: 1 px solid #5a6482
+  &:first-child
+    margin-left: 0
+
+.under
+  padding: 1.12rem 0
+  &_text
+    font-size: 1rem
+    font-weight: 400
+    color: $eny-text

@@ -1303,14 +1303,17 @@ body {
   margin: auto;
 }
 
-.footcontainer {
-  padding-top: 75px;
-  padding-bottom: 40px;
+.foot {
+  font-family: 'Roboto', sans-serif;
+}
+
+.foot__container {
+  background-color: #f8f8f8;
 }
 
 .foot__small {
-  border: 1px solid red;
-  padding: 0 5px;
+  margin-top: 4.68rem;
+  padding-bottom: 2.5rem;
 }
 
 .foot__left {
@@ -1320,5 +1323,132 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.foot__right {
+  max-width: 23.5rem;
+}
+
+.foot__form__text {
+  font-size: 0.87rem;
+  color: #5A6482;
+}
+
+.foot__input {
+  height: 60px;
+  width: 200px;
+  border: 1px solid rgba(29, 37, 60, 0.2);
+  border-radius: 4px 0 0 4px;
+}
+
+.foot__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #126F85;
+  padding: 20px 10px 20px 20px;
+  width: 86px;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.foot__btn::after {
+  content: "";
+  width: 31px;
+  height: 21px;
+  background-image: url(../img/Shape.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 6px;
+}
+
+.foot__btn:hover {
+  background-color: #15829b;
+}
+
+.foot__btn:active {
+  background-color: #0f5c6f;
+}
+
+.foot__res {
+  margin-left: 6.44rem;
+}
+
+.foot__title {
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #1D253C;
+}
+
+.foot__li {
+  list-style: none;
+  margin-bottom: 1.19rem;
+}
+
+.foot__li__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5A6482;
+}
+
+.foot__li__link::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 0;
+  background-color: #007188;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.foot__li__link:hover::after {
+  width: 100%;
+}
+
+.foot__list {
+  margin-left: -2.5rem;
+}
+
+.form__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.sotial__icon {
+  margin-left: 34px;
+  cursor: pointer;
+}
+
+.sotial__icon:hover {
+  padding: 2px;
+  background-color: #ccd0dc;
+  border-radius: 4px;
+}
+
+.sotial__icon:active {
+  border: 1 px solid #5a6482;
+}
+
+.sotial__icon:first-child {
+  margin-left: 0;
+}
+
+.under {
+  padding: 1.12rem 0;
+}
+
+.under_text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5A6482;
 }
 /*# sourceMappingURL=style.css.map */
