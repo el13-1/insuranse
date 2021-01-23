@@ -386,7 +386,7 @@ body {
   color: #fff;
   background-color: #F46752;
   border: none;
-  padding: 1.25rem 3.75rem 1.25rem 1.81rem;
+  padding: 1.25rem 2.75rem 1.25rem 1.81rem;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -489,6 +489,8 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: auto;
+  margin-right: 60px;
+  margin-left: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -526,11 +528,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 3.75rem;
-}
-
-.rightcont {
-  margin-right: 3.75rem;
 }
 
 .nav {
@@ -571,6 +568,7 @@ body {
 }
 
 .login {
+  margin-right: 1.69rem;
   border: none;
   background-color: transparent;
   font-family: 'Work Sans', sans-serif;
@@ -624,13 +622,15 @@ body {
 }
 
 .hero__text {
+  line-height: 2.06rem;
+  margin-top: 2.06rem;
   font-size: 1.37rem;
   font-weight: 500;
   color: #5A6482;
 }
 
 .hero__button {
-  margin-top: 10px;
+  margin-top: 2.25rem;
 }
 
 .hero__back {
@@ -646,7 +646,7 @@ body {
   width: 28.12rem;
   height: 23.93rem;
   position: absolute;
-  top: 20%;
+  top: 16%;
   left: 10%;
 }
 
@@ -674,11 +674,13 @@ body {
   background-color: #f9f5f2;
 }
 
-.influence__img {
-  max-width: 31.25rem;
+.influence--img {
+  width: 31.25rem;
+  height: 27.25rem;
 }
 
 .influence__discriotion {
+  margin-top: -3.87rem;
   max-width: 28.5rem;
 }
 
@@ -687,6 +689,7 @@ body {
   font-size: 0.88rem;
   color: #F46752;
   font-weight: 600;
+  line-height: 4.62rem;
 }
 
 .influence__title {
@@ -717,11 +720,12 @@ body {
 
 .help {
   padding-top: 9.25rem;
-  padding-bottom: 10.18rem;
+  padding-bottom: 12.18rem;
 }
 
 .help__here {
   max-width: 28.5rem;
+  margin-top: -3.56rem;
 }
 
 .help__imgcont {
@@ -763,16 +767,16 @@ body {
 
 .help__human {
   position: absolute;
-  top: 94%;
-  left: -5%;
+  top: 90%;
+  left: -13%;
   z-index: 10;
   padding: 1.25rem 1.56rem;
   background: #FFFFFF;
   -webkit-box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
           box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
   border-radius: 5px;
-  max-width: 20.4rem;
-  font-size: 0.94rem;
+  max-width: 22.4rem;
+  font-size: 1.38rem;
   color: #1D253C;
   font-weight: 400;
 }
@@ -795,8 +799,8 @@ body {
 
 .safe__img__cont {
   position: absolute;
-  left: 34%;
-  top: -21%;
+  left: 33%;
+  top: -13%;
 }
 
 .safe__title {
@@ -816,6 +820,7 @@ body {
   font-size: 0.88rem;
   color: #F46752;
   font-weight: 600;
+  line-height: 5rem;
 }
 
 .safe__text {
@@ -875,7 +880,7 @@ body {
 .how__container {
   background-color: #363839;
   position: relative;
-  padding-top: 7.5rem;
+  padding-top: 4.5rem;
   padding-bottom: 6.56rem;
   position: relative;
 }
@@ -944,7 +949,7 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 2.75rem;
-  line-height: 4.25rem;
+  line-height: 4rem;
   margin-top: 10px;
 }
 
@@ -954,7 +959,7 @@ body {
   font-weight: 400;
   line-height: 1.87rem;
   font-size: 1.18rem;
-  margin-top: -1rem;
+  margin-top: -1.5rem;
 }
 
 .top__pretitle {
@@ -963,6 +968,10 @@ body {
   color: #F46752;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.apl {
+  margin-bottom: -10px;
 }
 
 .need__container {
@@ -982,7 +991,7 @@ body {
 .need__lerning {
   position: absolute;
   top: 94%;
-  right: 10%;
+  right: 8%;
   z-index: 10;
   padding: 1.25rem 1.56rem;
   background: #FFFFFF;
@@ -998,7 +1007,7 @@ body {
 .need__item1 {
   padding-left: 6.38rem;
   padding-right: 10px;
-  margin-top: -4.25rem;
+  margin-top: -4.8rem;
 }
 
 .need__pretitle {
@@ -1006,6 +1015,7 @@ body {
   font-size: 0.88rem;
   color: #F46752;
   font-weight: 600;
+  line-height: 6.25rem;
 }
 
 .need__title {
@@ -1022,7 +1032,8 @@ body {
 }
 
 .need__button {
-  margin-top: 1.87rem;
+  margin-top: 2rem;
+  margin-left: -7px;
 }
 
 .items__container {
@@ -1245,7 +1256,7 @@ body {
 .itm {
   width: 16.25rem;
   height: 20.19rem;
-  padding: 0 2.5rem 1.37rem 2.19rem;
+  padding: 0.7rem 2.5rem 2.2rem 2.19rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1260,7 +1271,7 @@ body {
 
 .start__container {
   background-color: #e5f3fe;
-  padding: 6.25rem 0 4rem 0;
+  padding: 4.5rem 0 6rem 0;
   position: relative;
   background-image: url(../img/boy.png);
   background-repeat: no-repeat;
@@ -1421,6 +1432,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 25px;
+  margin-top: 1.56rem;
 }
 
 .sotial__icon {
