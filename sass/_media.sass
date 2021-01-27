@@ -108,7 +108,7 @@
     background-repeat: no-repeat
     
     &__container
-      background-position: 87% 101%
+      background-position: 95% 101%
       background-color: transparent
     &__man
       display: none
@@ -129,5 +129,137 @@
   .safe
     &__img__cont
       top: -13%   
-  .start__container 
-    background-position: 96% 101%
+  .start
+    background-image: none
+    &__container 
+      background-image: none
+
+@media screen and ( max-width: 833px  )
+  .hero
+    &--cont
+      height: 100vh
+  .hero__back
+    display: none
+  .how
+    &__cont
+      flex-wrap: wrap
+      justify-content: space-around
+      background-image: none
+    &__item
+      margin: 7px
+  .nav
+    display: none
+  .foot
+    &__left
+      display: none
+  .safe
+    &__img__cont
+      left: 17%
+
+@media screen and ( max-width: 660px  )
+  .hero
+    &--cont
+      height: 100vh
+  .safe
+    &__img__cont
+      left: 9%
+      top: -15%
+  .foot
+    &__price
+      display: none
+  html
+    font-size: 14px
+  .logo
+    &__img
+      max-width: 79px
+  .influence
+    &__small
+      max-width: 25rem
+      background-color: transparent
+    &--img
+      max-width: 25rem
+      max-height: 25rem
+      
+    &__discriotion
+      padding: 0 0 7px 0
+    &__img__cont
+      margin: 0 
+  .help
+    padding-top: 2.5rem
+    &__cont
+      max-width: 25rem
+    &__img
+      max-width: 25rem
+    &__here
+      margin-bottom: 6rem
+  .need
+    &__small
+      max-width: 25rem
+    &__item1
+      margin-bottom: 34px
+    &__item
+      width: 100%
+      margin: 0
+    &__img
+      max-width: 25rem
+    &__container
+      padding-bottom: 7.18rem
+  .items
+    &__container
+      padding-top: 6.18rem
+      padding-bottom: 6.18rem
+
+@media screen and ( max-width: 616px  )
+  .safe
+    &__img__cont
+      display: none
+  .help
+    padding-bottom: 6.5rem
+
+@media screen and ( max-width: 470px  )
+  .logo
+    display: none
+  .rightcont
+    width: 100%
+    display: flex
+    justify-content: space-between
+  .maintitle 
+    max-width: 300px
+    line-height: 3.5rem
+    font-size: 3rem
+  .hero__text
+    max-width: 300px
+  .help__img
+    max-width: 22rem
+  .influence--img
+   
+    max-height: 22rem
+  .need__img
+    max-width: 22rem
+  .dog
+    width: 80%
+  .how__topimg
+    right: -15%
+  .menu
+    margin-left: 35px
+    margin-right: 0
+  .help__dott
+    display: none 
+  .need__dott
+    display: none
+@media screen and ( max-width: 320px  )
+  .help__img
+    max-width: 19rem
+  .influence--img
+    max-width: 19rem
+  .need__img
+    max-width: 19rem
+  .form__items
+    max-width: 19rem
+   
+@media screen and ( max-height: 280px  )
+  .hero--cont
+    height: 130vh
+@media screen and ( min-height: 500px  )
+  .hero--cont
+    height: 68vh
