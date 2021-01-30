@@ -606,7 +606,7 @@ body {
 }
 
 .hero--cont {
-  height: 82vh;
+  height: 92vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -830,6 +830,7 @@ body {
   line-height: 1.87rem;
   font-size: 1.18rem;
   margin-bottom: 2.56rem;
+  max-width: 1077px;
 }
 
 .safe__item {
@@ -854,6 +855,7 @@ body {
   line-height: 1.62rem;
   font-size: 0.68rem;
   color: #5A6482;
+  max-width: 247px;
 }
 
 .item__title {
@@ -1655,9 +1657,6 @@ body {
 }
 
 @media screen and (max-width: 833px) {
-  .hero--cont {
-    height: 100vh;
-  }
   .hero__back {
     display: none;
   }
@@ -1667,6 +1666,8 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     background-image: none;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .how__item {
     margin: 7px;
@@ -1680,15 +1681,18 @@ body {
   .safe__img__cont {
     left: 17%;
   }
+  .safe__text {
+    max-width: 500px;
+  }
 }
 
 @media screen and (max-width: 660px) {
-  .hero--cont {
-    height: 100vh;
-  }
   .safe__img__cont {
     left: 9%;
     top: -15%;
+  }
+  .safe__text {
+    max-width: 400px;
   }
   .foot__price {
     display: none;
@@ -1715,6 +1719,7 @@ body {
   }
   .help {
     padding-top: 2.5rem;
+    padding-bottom: 2rem;
   }
   .help__cont {
     max-width: 25rem;
@@ -1752,7 +1757,13 @@ body {
     display: none;
   }
   .help {
-    padding-bottom: 6.5rem;
+    padding-bottom: 8rem;
+  }
+  .help__human {
+    font-size: 0.9rem;
+  }
+  .need__lerning {
+    font-size: 0.8rem;
   }
 }
 
@@ -1805,6 +1816,12 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+  html {
+    font-size: 13px;
+  }
+  .help {
+    padding-bottom: 10rem;
+  }
   .help__img {
     max-width: 19rem;
   }
@@ -1819,15 +1836,15 @@ body {
   }
 }
 
-@media screen and (max-height: 280px) {
+@media screen and (max-height: 500px) {
   .hero--cont {
-    height: 130vh;
+    height: 89vh;
   }
 }
 
-@media screen and (min-height: 500px) {
+@media screen and (max-height: 370px) {
   .hero--cont {
-    height: 68vh;
+    height: 125vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

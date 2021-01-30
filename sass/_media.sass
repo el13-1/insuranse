@@ -135,9 +135,7 @@
       background-image: none
 
 @media screen and ( max-width: 833px  )
-  .hero
-    &--cont
-      height: 100vh
+  
   .hero__back
     display: none
   .how
@@ -145,8 +143,10 @@
       flex-wrap: wrap
       justify-content: space-around
       background-image: none
+      align-content: center
     &__item
       margin: 7px
+      
   .nav
     display: none
   .foot
@@ -155,15 +155,17 @@
   .safe
     &__img__cont
       left: 17%
+    &__text
+      max-width: 500px
 
 @media screen and ( max-width: 660px  )
-  .hero
-    &--cont
-      height: 100vh
+ 
   .safe
     &__img__cont
       left: 9%
       top: -15%
+    &__text
+      max-width: 400px
   .foot
     &__price
       display: none
@@ -186,6 +188,7 @@
       margin: 0 
   .help
     padding-top: 2.5rem
+    padding-bottom: 2rem
     &__cont
       max-width: 25rem
     &__img
@@ -214,7 +217,12 @@
     &__img__cont
       display: none
   .help
-    padding-bottom: 6.5rem
+    padding-bottom: 8rem
+    &__human
+      font-size: 0.9rem
+  .need
+    &__lerning
+      font-size: 0.8rem
 
 @media screen and ( max-width: 470px  )
   .logo
@@ -248,8 +256,13 @@
   .need__dott
     display: none
 @media screen and ( max-width: 320px  )
-  .help__img
-    max-width: 19rem
+  html
+    font-size: 13px
+  .help
+    padding-bottom: 10rem
+    &__img
+      max-width: 19rem
+    
   .influence--img
     max-width: 19rem
   .need__img
@@ -257,9 +270,11 @@
   .form__items
     max-width: 19rem
    
-@media screen and ( max-height: 280px  )
+
+@media screen and ( max-height: 500px  )
   .hero--cont
-    height: 130vh
-@media screen and ( min-height: 500px  )
+    height: 89vh
+
+@media screen and ( max-height: 370px  )
   .hero--cont
-    height: 68vh
+    height: 125vh
