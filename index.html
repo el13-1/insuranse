@@ -285,5 +285,43 @@
       </div>
     </footer>
   </main>
+  <div class="modal">
+    <div class="modal__dialog">
+      <button class="modal__close"></button>
+      <h3 class="modal__title">Leave a request and our manager will contact you</h3>
+      <form action="#" class="form modal__form">
+        <div class="form_div form__name">
+          <label for="user-name" class="label form__label">name</label>
+          <!-- /.label form__label -->
+          <input type="text" class="input form__input" id="user-name" placeholder="your name" >
+        </div>
+        <!-- /.form_div -->
+
+        <div class="form_div form__tel">
+          <label for="user-phone" class="label form__label">phone</label>
+          <!-- /.label form__label -->
+          <input type="tel" class="input form__input" id ="user-phone" placeholder="your phone">
+        </div>
+        <!-- /.form_div form__tel -->
+
+        <div class="form_div form__email">
+          <label for="user-email" class="label form__label">email</label>
+          <!-- /.label form__label -->
+          <input type="email" class="input form__input" id="user-email" placeholder="your email">
+        </div>
+        <!-- /.form_div form__email -->
+
+        <div class="policy">
+          <input type="checkbox" id="policy-check" class="policy__checkbox">
+          <label for="policy-check" class="policy__label">I agree to the processing of the data</label>
+        </div>
+        <!-- /.policy -->
+
+        <button class="form__btn button--all">send</button>
+      </form>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
 </body>
 </html>
