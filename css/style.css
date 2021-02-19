@@ -668,6 +668,10 @@ body {
   position: relative;
 }
 
+.first-screen-cont {
+  width: 30%;
+}
+
 .influence__container {
   padding-top: 9.94rem;
   padding-bottom: 3.4rem;
@@ -884,7 +888,6 @@ body {
   position: relative;
   padding-top: 4.5rem;
   padding-bottom: 6.56rem;
-  position: relative;
 }
 
 .how__topimg {
@@ -920,6 +923,7 @@ body {
 }
 
 .how__item__text {
+  max-width: 15rem;
   font-weight: normal;
   font-size: 1rem;
   color: #ACB4BF;
@@ -1014,6 +1018,7 @@ body {
 }
 
 .need__item1 {
+  width: 50%;
   padding-left: 6.38rem;
   padding-right: 10px;
   margin-top: -4.8rem;
@@ -1581,6 +1586,9 @@ body {
   body {
     padding: 0 7px;
   }
+  .header {
+    font-size: 75%;
+  }
   .maintitle {
     font-size: 3.5rem;
   }
@@ -1822,6 +1830,7 @@ body {
     max-width: 25rem;
   }
   .need__item1 {
+    width: 100%;
     margin-bottom: 34px;
   }
   .need__item {
