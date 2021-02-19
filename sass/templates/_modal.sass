@@ -1,4 +1,5 @@
 .modal
+  
   position: fixed
   left: 0
   top: 0
@@ -11,6 +12,7 @@
   display: flex
   align-items: center
   justify-content: center
+  display: none
   &__close
     background: url('../img/error.png') no-repeat center
     width: 32px
@@ -20,6 +22,7 @@
     top: 10px
     right: 10px
   &__dialog
+    max-width: 600px
     background-color: #fff
     padding: 1.8rem
     border-radius: 4px

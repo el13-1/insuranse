@@ -1498,6 +1498,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: none;
 }
 
 .modal__close {
@@ -1511,6 +1512,7 @@ body {
 }
 
 .modal__dialog {
+  max-width: 600px;
   background-color: #fff;
   padding: 1.8rem;
   border-radius: 4px;
@@ -1836,6 +1838,9 @@ body {
     padding-top: 6.18rem;
     padding-bottom: 6.18rem;
   }
+  .modal__dialog {
+    margin: 0 5px;
+  }
 }
 
 @media screen and (max-width: 616px) {
@@ -1931,6 +1936,37 @@ body {
 @media screen and (max-height: 370px) {
   .hero--cont {
     height: 125vh;
+  }
+  .modal__title {
+    font-size: 1rem;
+  }
+  .label {
+    font-size: 0.7rem;
+  }
+  .form__input {
+    height: 1.4rem;
+  }
+  .form__input::-webkit-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .form__input:-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .form__input::-ms-input-placeholder {
+    font-size: 0.8rem;
+  }
+  .form__input::placeholder {
+    font-size: 0.8rem;
+  }
+  .form__btn {
+    padding: 0.9rem 2rem;
+  }
+  .policy {
+    margin-top: 0;
+  }
+  .policy__label {
+    margin-top: 0;
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
