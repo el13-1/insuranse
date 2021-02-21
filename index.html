@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="main.js" defer></script>
 </head>
@@ -17,9 +18,9 @@
         <div class="leftcont">
           <div class="logo menu__logo"><img src="img/Frame.svg" alt="logo" class="logo__img"></div>
         <nav class="nav menu__nav">
-          <a href="#" class="nav__item">Life insurance</a>
-          <a href="#" class="nav__item">Why Bello</a>
-          <a href="#" class="nav__item">Help</a>
+          <a href="#how" class="nav__item">Life insurance</a>
+          <a href="#inf" class="nav__item">Why Bello</a>
+          <a href="#help" class="nav__item">Help</a>
         </nav>
         </div>
         <!-- /.leftcont -->
@@ -41,15 +42,15 @@
       </div>
       <div class="hero__back"></div>
       <div class="text">
-        <h1 class="maintitle"><span class="pretitle">MEET BELLO</span><br>A new kind of life insurance</h1>
+        <h1 class="maintitle"><span data-wow-duration="2s" class="pretitle wow animate__zoomIn">MEET BELLO</span><br>A new kind of life insurance</h1>
         <p class="hero__text">Secure your family's financial future, in as little as 10 minutes.</p>
-        <button class="hero__button button--all btn">Get my price</button>
+        <button data-wow-duration="2s" data-wow-delay="3s" class="hero__button button--all btn wow animate__shakeX">Get my price</button>
       </div>
     </div>
     <!-- /.container -->
     </section>
     
-    <section class="influence">
+    <section class="influence" id="inf">
       <div class="container influence__container">
         <div class="container__small influence__small">
           <div class="influence__img">
@@ -57,7 +58,7 @@
             <p class="discr">Data for illustrative purposes</p>
           </div>
           <div class="influence__discriotion">
-            <h2 class="influence__title"><span class="influence__pretitle">Secure your future</span><br>It’s more affordable than you think</h2>
+            <h2 class="influence__title"><span data-wow-duration="7s" data-wow-offset="30" class="influence__pretitle wow animate__zoomIn">Secure your future</span><br>It’s more affordable than you think</h2>
             <p class="influence__text">Life insurance shouldn’t be confusing or expensive. Bello’s term life insurance makes protecting your loved ones easy and affordable.</p>
             <button class="influence__button button__small btn">Get my price</button>
           </div>
@@ -67,11 +68,11 @@
       <!-- /.container influence__container -->
     </section>
 
-    <section class="help">
+    <section class="help" id="help">
       <div class="container">
         <div class="container__small help__cont">
           <div class="help__here">
-            <h2 class="help__title"><span class="help__pretitle">Technology meets service</span><br>We're here to help</h2>
+            <h2 class="help__title"><span data-wow-duration="7s" data-wow-offset="30" class="help__pretitle wow animate__zoomIn">Technology meets service</span><br>We're here to help</h2>
             <p class="help__text">Bella, our smart bot, can guide you to your perfect policy. There’s also human help whenever you need it.</p>
             <button class="help__button button__small btn">Get help</button>
           </div>
@@ -90,7 +91,7 @@
       <div class="container safe__container">
         <div class="safe__img__cont"><img src="../img/umbrella.png" alt="" class="safe__umbrella"></div>
         <div class="title__cont safe__title__cont">
-          <h2 class="safe__title"><span class="safe__pretitle">Top-Rated Term Life Insurance</span><br>You’re in safe hands</h2>
+          <h2 class="safe__title"><span data-wow-duration="7s" data-wow-offset="30" class="safe__pretitle wow animate__zoomIn">Top-Rated Term Life Insurance</span><br>You’re in safe hands</h2>
           <div class="safe__text">We've partnered with, [insert underwriter], one of the world’s largest, most trusted insurance companies. This means we can ensure reliability in paying Claims.</div>
         </div>
         <!-- /.title__cont -->
@@ -119,12 +120,12 @@
       <!-- /.container -->
     </section>
 
-    <section class="how">
+    <section class="how" id="how">
       <div class="container how__container">
         <div class="how__topimg"><img src="../img/dog.png" alt="" class="dog"></div>
        
           <div class="how__top">
-            <h2 class="top__title"><span class="top__pretitle">How it works</span><br>Affordable life insurance in minutes</h2>
+            <h2 class="top__title"><span data-wow-duration="7s" data-wow-offset="30" class="top__pretitle wow animate__zoomIn">How it works</span><br>Affordable life insurance in minutes</h2>
             <p class="top__text">We use technology to save you time and money – no pushy sales agents, paperwork, or extra fees. Just a few clicks and you’re done.</p>
           </div>
           <!--how__top-->
@@ -148,7 +149,7 @@
             </div>
             <!-- /.how__item -->
           </div>
-          <button class="button--all how__button btn">Get my price</button>
+          <button data-wow-duration="2s" data-wow-delay="1.5s" class="button--all how__button btn wow animate__shakeX">Get my price</button>
         <img src="../img/confetti.png" alt="" class="how__confeti">
         
       </div>
@@ -165,7 +166,7 @@
           </div>
           <!-- /.need__item -->
           <div class="need__item1">
-            <h2 class="need__title"><span class="need__pretitle">You've Got This</span><br>Everything you need— completely free</h2>
+            <h2 class="need__title"><span data-wow-duration="7s" data-wow-offset="30" class="need__pretitle wow animate__zoomIn">You've Got This</span><br>Everything you need— completely free</h2>
             <p class="need__text">Here’s the latest info, guides, and, helpful tools, from the Bello team. Learn about life insurance, finances, health and wellness.</p>
             <button class="need__button button__small btn">Visit Learning Center</button>
           </div>
@@ -177,25 +178,25 @@
     <section class="items">
       <div class="container items__container">
         <div class="container__small items__small">
-          <div class="items__item itm">
+          <div data-wow-duration="1s" class="items__item itm wow animate__fadeInTopLeft">
             <h3 class="items__item__title">Calculator</h3>
             <p class="items__item__text">How much life insurance do I need?</p>
             <button class="items__item__button">Calculate Coverage</button>
           </div>
           <!-- /.items__item -->
-          <div class="items__item1 itm">
+          <div data-wow-duration="1.3s" class="items__item1 itm wow animate__fadeInTopLeft">
             <h3 class="items__item__title1">Term vs. perm</h3>
             <p class="items__item__text1">Term vs. whole life insurance. Which is best for you?</p>
             <button class="items__item__button1">See the winner</button>
           </div>
           <!-- /.items__item -->
-          <div class="items__item2 itm">
+          <div data-wow-duration="1.6s" class="items__item2 itm wow animate__fadeInTopLeft">
             <h3 class="items__item__title2">Pricing</h3>
             <p class="items__item__text2">How much does life insurance cost?</p>
             <button class="items__item__button2">Tell me more</button>
           </div>
           <!-- /.items__item -->
-          <div class="items__item3 itm">
+          <div data-wow-duration="1.9s" class="items__item3 itm wow animate__fadeInTopLeft">
             <h3 class="items__item__title3">Insurance 101</h3>
             <p class="items__item__text3">The ultimate guide to life insurance.</p>
             <button class="items__item__button3 btn">Become an expert</button>
@@ -211,7 +212,7 @@
         <div class="start__small">
           <h2 class="start__title">Get Started Today.</h2>
           <p class="start__text">Join the Bello community of people who are securing their financial future.</p>
-          <button class="button--all start__button btn">Get my price</button>
+          <button data-wow-duration="2s" data-wow-delay="1.5s" class="button--all start__button btn wow animate__shakeX">Get my price</button>
         </div>
       </div>
     </section>
@@ -290,25 +291,25 @@
     <div class="modal__dialog">
       <button class="modal__close"></button>
       <h3 class="modal__title">Leave a request and our manager will contact you</h3>
-      <form action="#" class="form modal__form">
+      <form action="page.php" method="POST" class="form modal__form">
         <div class="form_div form__name">
           <label for="user-name" class="label form__label">name</label>
           <!-- /.label form__label -->
-          <input type="text" class="input form__input" id="user-name" placeholder="your name" >
+          <input type="text" name= "userName" class="input form__input" id="user-name" placeholder="your name" >
         </div>
         <!-- /.form_div -->
 
         <div class="form_div form__tel">
           <label for="user-phone" class="label form__label">phone</label>
           <!-- /.label form__label -->
-          <input type="tel" class="input form__input" id ="user-phone" placeholder="your phone">
+          <input type="tel" name= "userPhone" class="input form__input" id ="user-phone" placeholder="your phone">
         </div>
         <!-- /.form_div form__tel -->
 
         <div class="form_div form__email">
           <label for="user-email" class="label form__label">email</label>
           <!-- /.label form__label -->
-          <input type="email" class="input form__input" id="user-email" placeholder="your email">
+          <input type="email" name= "userEmail" class="input form__input" id="user-email" placeholder="your email">
         </div>
         <!-- /.form_div form__email -->
 
@@ -318,11 +319,28 @@
         </div>
         <!-- /.policy -->
 
-        <button class="form__btn button--all btn">send</button>
+        <button type="submit" class="form__btn button--all btn">send</button>
       </form>
     </div>
     <!-- /.modal__dialog -->
   </div>
   <!-- /.modal -->
+
+  <div class="modal__log">
+    <div class="log">
+      <button class="log__close"></button>
+      <form class="log__form">
+        <h3 class="log__title">Authorization</h3>
+        <input type="email" class="log__input log__email" name="email" minlength="3" required placeholder="enter email" >
+        <input type="password" class="log__input log__pass" name="password" minlength="3" required placeholder="enter password">
+        <a href="#" class="log__forget">forgot pass?</a>
+          <button type="submit" class="log__signin button--all">Enter</button>
+          <a href="#" class="signup">Register</a>
+      </form>
+    </div>
+    <!-- /.log -->
+  </div>
+  <script src="wow.js"></script>
+  <script>new WOW().init()</script>
 </body>
 </html>
